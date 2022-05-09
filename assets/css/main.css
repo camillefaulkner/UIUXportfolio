@@ -1687,13 +1687,13 @@ input, select, textarea {
 		  }
 		  
 		  .zoom:hover {
-			-ms-transform: scale(2); /* IE 9 */
-			-webkit-transform: scale(2); /* Safari 3-8 */
-			transform: scale(2); 
+			-ms-transform: scale(1.75); /* IE 9 */
+			-webkit-transform: scale(1.75); /* Safari 3-8 */
+			transform: scale(1.75); 
 		  }
 
 
-* {box-sizing: border-box;}
+/** {box-sizing: border-box;}*/
 
 .img-magnifier-container {
 			position: relative;
@@ -1702,9 +1702,62 @@ input, select, textarea {
 .img-magnifier-glass {
 			position: absolute;
 			border: 3px solid #000;
-			border-radius: 50%;
+			/*border-radius: 100%;*/
 			cursor: none;
 			/*Set the size of the magnifier glass:*/
-			width: 100px;
-			height: 100px;
+			width: 200px;
+			height: 200px;
 		  }
+
+.musicpic {
+	width: 50%;
+	margin: 0.5rem;
+}
+
+.videos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.video {
+	margin: 1rem;
+}
+
+.interview {
+	margin: 1rem;
+	padding-left: 115px;
+}
+
+.row1, .row2, .row3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.articles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.headerborder {
+	border: #ffffff 1px solid;
+	padding: 0.5rem;
+}
+
+.venmo {
+	background-color: #3D95CE;
+	padding: 2rem;
+	margin-bottom: 2rem;
+}
+
+.mint {
+	background-color: #00a5a5;
+	padding: 2rem;
+	margin-bottom: 2rem;
+}
+
+.bigpaper {
+	width: 100%;
+	border-radius: 10px;
+}
